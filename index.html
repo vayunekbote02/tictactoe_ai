@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <span id="cantPlay">Bhai bas karde ab</span>
+    <div class="score">
+      <div>You Won: <span id="hst">0</span></div>
+      <div>AI Won: <span id="aist">0</span></div>
+    </div>
+    <div class="below_score">Tied Games: <span id="tied">0</span></div>
+    <table>
+      <tr>
+        <td class="cell" id="0"></td>
+        <td class="cell" id="1"></td>
+        <td class="cell" id="2"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="3"></td>
+        <td class="cell" id="4"></td>
+        <td class="cell" id="5"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="6"></td>
+        <td class="cell" id="7"></td>
+        <td class="cell" id="8"></td>
+      </tr>
+    </table>
+    <div class="endgame">
+      <div id="text"></div>
+    </div>
+    <button onClick="startGame()">Play Again</button>
+    <button onClick="startOver()">Reset stats</button>
+    <script src="script.js"></script>
+  </body>
+</html>
