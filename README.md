@@ -1,3 +1,5 @@
-Simple undefeatable tic tac toe AI using minimax algorithm
+## Simple undefeatable tic tac toe AI using minimax algorithm
 
-Game Image
+### Game Image
+
+![in game image](assets/game.png)
